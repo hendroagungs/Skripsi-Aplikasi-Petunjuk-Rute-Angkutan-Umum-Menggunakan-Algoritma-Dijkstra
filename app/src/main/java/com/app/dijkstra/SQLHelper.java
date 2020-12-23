@@ -12,11 +12,10 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 import android.widget.Toast;
 
-//http://cariprogram.blogspot.com
 
 public class SQLHelper extends SQLiteOpenHelper{
 
-	private static final String DATABASE_NAME = "schoolnav.sqlite";
+	private static final String DATABASE_NAME = "trayekkrw.sqlite";
 	private static final int DATABASE_VERSION = 4;
 	private static String DB_PATH = "/data/data/com.app.dijkstra/databases/";
 	private Context myContext;

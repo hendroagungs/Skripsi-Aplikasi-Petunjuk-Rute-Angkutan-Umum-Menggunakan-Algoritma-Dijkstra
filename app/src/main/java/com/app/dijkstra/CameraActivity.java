@@ -14,7 +14,7 @@ import android.os.Bundle;
 /**
  * Created by Hsin-ping on 2016/8/12.
  */
-public class CameraActivity extends MainActivity {
+public class CameraActivity extends SearchActivity {
 
     EditText addrField;
     Button btnConnect;
